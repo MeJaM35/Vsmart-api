@@ -1,0 +1,39 @@
+{
+  "contact_info": {
+    "email": "jamsutkarmeet@gmail.com"
+  },
+  "education": [],
+  "experience": [
+    "Full Stack Developer Intern, IEEE Bombay Section X Alhansat Solutions Sep 23 – Nov 23",
+    "• Led a team of 8+ interns to build a production-ready web app using Svelte JS and Flowbite UI",
+    "• Designed and implemented a key module with 10+ features in an open-source project",
+    "• Reviewed and managed PRs, ensuring code quality and seamless team collaboration",
+    "Development Team Lead Intern, CareTeam PVT LTD Oct 2021 – May 23",
+    "• Developed Django-based Sertibot web app with Razorpay API for subscription management",
+    "• Optimized hosting by deploying on lightweight shared hosting using puTTY, Whitenoise, and Gunicorn",
+    "• Executed Shopify client project: scraped 400+ e-commerce pages, analyzed pricing trends with NumPy and",
+    "Pandas",
+    "• Developed linear regression model for price predictions",
+    "• Improved client project UIs by fixing critical bugs and enhancing usability",
+    "• Managed cross-functional teams across diverse tech stacks, ensuring timely delivery and high-quality outcomes",
+    "Projects",
+    "Athena AI - Brand Builder & AI Content Writer GitHub",
+    "• Built marketing application integrating AI-driven insights with data visualizations",
+    "• Developed RAG model using OpenAI’s API with custom marketing agent",
+    "• Created interactive Plotly dashboard to visualize brand metrics",
+    "Phishing Site Detection GitHub",
+    "• Engineered high-performance FastAPI REST API for URL analysis",
+    "• Implemented advanced NLP techniques for suspicious URL detection",
+    "• Achieved 95%+ accuracy with ensemble ML model on 50,000+ URL dataset",
+    "Leadership & Extra-Curricular",
+    "Technical Head - Student Council",
+    "• Deployed web application for OJUS’24 on Google Cloud Platform",
+    "• Implemented automated registration system for 1000+ student registrations",
+    "• Reduced manual data processing time by 80%",
+    "Core Team Member - Hackwave National Hackathon",
+    "• Executed national-level hackathon with 300+ teams",
+    "• Developed centralized data pipeline for participant registration",
+    "• Coordinated with 20+ volunteers, judges, and industry mentors"
+  ],
+  "skills": []
+}
