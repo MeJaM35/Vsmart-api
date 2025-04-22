@@ -8,3 +8,16 @@ wheels/
 
 # Virtual environments
 .venv
+.env
+
+# Project specific
+parsed_resumes/
+*.pdf
+*.txt
+*.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
