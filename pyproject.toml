@@ -1,17 +1,37 @@
 [project]
-name = "backend"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "fastapi>=0.115.12",
-    "pdf2image>=1.17.0",
-    "pdfplumber>=0.11.6",
-    "pillow>=11.2.1",
-    "poppler-utils>=0.1.0",
-    "pytesseract>=0.3.13",
-    "python-dotenv>=1.1.0",
-    "python-multipart>=0.0.20",
-    "uvicorn>=0.34.2",
+name = "resume-parser"
+version = "2.0.0"
+description = "AI-powered resume parser with structured data extraction"
+authors = [
+    {name = "MJ", email = "jamsutkarmeetpradeep@gmail.com"},
 ]
+requires-python = ">=3.8"
+dependencies = [
+    "fastapi>=0.68.0",
+    "uvicorn>=0.15.0",
+    "python-multipart>=0.0.5",
+    "pdfplumber>=0.7.4",
+    "pdf2image>=1.16.0",
+    "pytesseract>=0.3.8",
+    "Pillow>=8.3.2",
+    "numpy>=1.21.2",
+    "scikit-learn>=0.24.2",
+    "huggingface-hub>=0.8.1",
+    "aiofiles>=0.8.0",
+    "python-dotenv>=0.19.2",
+    "requests>=2.26.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[tool.pytest.ini_options]
+pythonpath = "."
+addopts = "--cov"
+
+[tool.coverage.run]
+source = ["."]

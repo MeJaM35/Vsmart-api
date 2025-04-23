@@ -1,0 +1,29 @@
+2025-04-22 22:09:49,504 - resume_parser - INFO - No embedding cache found, starting with empty cache
+2025-04-22 22:22:52,644 - resume_parser - INFO - No embedding cache found, starting with empty cache
+2025-04-22 22:26:29,057 - resume_parser - INFO - No embedding cache found, starting with empty cache
+2025-04-22 22:26:29,222 - resume_parser - INFO - Updated skills taxonomy with 69 skills
+2025-04-22 22:26:37,624 - resume_parser - ERROR - Error generating skill vectors: 500 Server Error: Internal Server Error for url: https://router.huggingface.co/hf-inference/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-6807ca4f-514c04e5581f2db35dcb9a1f;4c7d945d-3de2-4469-9bc3-ae93fc6346d2)
+2025-04-22 22:26:38,343 - resume_parser - ERROR - Error generating skill vectors: 503 Server Error: Service Temporarily Unavailable for url: https://router.huggingface.co/hf-inference/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2
+2025-04-22 22:26:39,056 - resume_parser - ERROR - Error generating skill vectors: 503 Server Error: Service Temporarily Unavailable for url: https://router.huggingface.co/hf-inference/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2
+2025-04-22 22:26:39,057 - resume_parser - INFO - Generated vectors for 0 skills
+2025-04-22 22:28:15,468 - pdfminer.pdfpage - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-04-22 22:28:15,472 - pdfminer.pdfpage - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-04-22 22:28:15,800 - pdfminer.pdfpage - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-04-22 22:28:15,801 - pdfminer.pdfpage - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-04-22 22:28:15,811 - resume_parser - ERROR - Error processing resume: 'ResumeParser' object has no attribute '_extract_sections'
+Traceback (most recent call last):
+  File "C:\Users\prade\Vsmart\backend\main.py", line 1010, in upload_file
+    parsed_data = await parser.parse_resume(extracted_text)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prade\Vsmart\backend\main.py", line 937, in parse_resume
+    sections = self._extract_sections(text)
+               ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ResumeParser' object has no attribute '_extract_sections'
+2025-04-23 15:44:45,676 - resume_parser - INFO - No embedding cache found, starting with empty cache
+2025-04-23 15:44:45,955 - resume_parser - INFO - Loaded skills taxonomy with 69 skills
+2025-04-23 15:44:51,037 - resume_parser - INFO - Generated vectors for 69 skills (API success rate: 100.0%)
+2025-04-23 15:45:57,271 - pdfminer.pdfpage - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-04-23 15:45:57,272 - pdfminer.pdfpage - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-04-23 15:45:57,540 - pdfminer.pdfpage - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-04-23 15:45:57,541 - pdfminer.pdfpage - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-04-23 15:48:17,982 - resume_parser - INFO - Resume parser resources cleaned up successfully
